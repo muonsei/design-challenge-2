@@ -1,0 +1,21 @@
+.myDialog{
+    -fx-background-color:#273238;
+    -fx-font-family:'Century Gothic';
+}
+Button{
+	-fx-background-color:#273238;
+	-fx-border-color:#696969;
+	-fx-border-width:2px;
+	-fx-background-radius:0px 20px 0px 20px;
+	-fx-border-radius:0px 20px 0px 20px;
+	-fx-text-fill:#fafafa;
+	-fx-font-family:'Century Gothic';
+}
+Button:pressed{
+	-fx-background-color:#fafafa;
+	-fx-border-color:#FF4081;
+	-fx-text-fill:#273238;
+}
+Label{
+	-fx-text-fill:#fafafa;
+}

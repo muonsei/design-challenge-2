@@ -1,0 +1,98 @@
+#todayButton{
+	-fx-background-color:#273238;
+	-fx-text-fill:#999999;
+	-fx-border-color:#273238 #273238 #999999 #273238;
+	-fx-border-width:0px 0px 2px 0px;
+	-fx-border-radius:0px;
+}
+#todayButton:pressed{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#FF4081;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+}
+#dayToggle{
+	-fx-background-color:#273238;
+	-fx-text-fill:#999999;
+	-fx-border-width:0px 0px 2px 0px;
+	-fx-border-radius:0px;
+}
+#dayToggle:pressed{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#FF4081;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+}
+#dayToggle:selected{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#FF4081;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+}
+#agendaToggle{
+	-fx-background-color:#273238;
+	-fx-text-fill:#999999;
+	-fx-border-width:0px 0px 2px 0px;
+	-fx-border-radius:0px;
+}
+#agendaToggle:pressed{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#FF4081;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+}
+#agendaToggle:selected{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#FF4081;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+}
+#createButton{
+	-fx-background-color:#FF4081;
+	-fx-text-fill:#dbdbdb;
+}
+#createButton:pressed{
+	-fx-background-color:#930d3a;
+	-fx-text-fill:#d3d3d3;
+}
+#viewAllButton{
+	-fx-text-fill:#273238;
+}
+#viewAllButton:pressed{
+	-fx-background-color:#696969;
+	-fx-text-fill:#151515;
+	-fx-border-color:#273238;
+}
+#prevMonthButton{
+	-fx-background-color:inherit;
+	-fx-text-fill:#fafafa;
+	-fx-background-radius:50%;
+}
+#prevMonthButton:pressed{
+	-fx-background-color:#FF4081;
+	-fx-text-fill:#fafafa;
+}
+#nextMonthButton{
+	-fx-background-color:inherit;
+	-fx-text-fill:#fafafa;
+	-fx-background-radius:50%;
+}
+#nextMonthButton:pressed{
+	-fx-background-color:#FF4081;
+	-fx-text-fill:#fafafa;
+}
+#eventCheckbox{
+	-fx-text-fill:#fafafa;
+	-fx-font-family:'Century Gothic';
+	-fx-font-size:15px;
+}
+#eventCheckbox:selected{
+	-fx-font-weight:bolder;
+	-fx-font-family:'Century Gothic';
+	-fx-font-size:15px;
+}
+#taskCheckbox{
+	-fx-text-fill:#fafafa;
+	-fx-font-family:'Century Gothic';
+	-fx-font-size:15px;
+}
+#taskCheckbox:selected{
+	-fx-font-weight:bolder;
+	-fx-font-family:'Century Gothic';
+	-fx-font-size:15px;
+}

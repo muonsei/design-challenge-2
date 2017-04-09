@@ -1,0 +1,62 @@
+#eventnameField{
+	-fx-background-color:#f6f6f6;
+}
+#eventnameField:focused{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#273238;
+	-fx-border-width:0px 0px 3px 0px;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+	-fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+#eventRadioButton{
+	-fx-background-color:#f6f6f6;
+}
+#taskRadioButton{
+	-fx-background-color:#f6f6f6;
+}
+#datePicker{
+	-fx-background-color:#f6f6f6;
+}
+#datePicker:focused{
+	-fx-background-color:#273238;
+	-fx-text-fill:#fafafa;
+	-fx-border-width:0px 0px 3px 0px;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+}
+#fromTimeField{
+	-fx-background-color:#f6f6f6;
+}
+#fromTimeField:focused{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#273238;
+	-fx-border-width:0px 0px 3px 0px;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+	-fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+#toTimeField{
+	-fx-background-color:#f6f6f6;
+}
+#toTimeField:focused{
+	-fx-background-color:#fafafa;
+	-fx-text-fill:#273238;
+	-fx-border-width:0px 0px 3px 0px;
+	-fx-border-color:#fafafa #fafafa #FF4081 #fafafa;
+	-fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+#saveButton{
+	-fx-background-color:#FF4081;
+	-fx-text-fill:#fafafa;
+}
+#saveButton:pressed{
+	-fx-background-color:#930d3a;
+	-fx-text-fill:#d3d3d3;
+}
+#discardButton{
+	-fx-text-fill:#273238;
+	-fx-border-width:0px;
+}
+#discardButton:pressed{
+	-fx-background-color:#696969;
+	-fx-text-fill:#151515;
+	-fx-border-color:#273238;
+}
